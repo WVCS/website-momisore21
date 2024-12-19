@@ -1,3 +1,47 @@
-body {
+body { 
+  background-color: black;
+}
 
+h3 { 
+  color: green;
+font-size: 300%;
+text-decoration-line: underline;
+text-decoration-color: green;
+text-decoration-style: wavy;
+letter-spacing: 5px;
+word-spacing: 9px;
+text-shadow: 3px 3px 10px red;
+
+}
+img {
+  width: 40%;
+ background-color: black;
+
+}
+
+img:hover {
+  width: 60%;
+}
+
+ul {
+  list-style-type: none;
+  background-color: green; 
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  position: fixed; 
+}
+li { 
+disply: inline;
+  padding: 10px 20px;
+  float: right;
+}
+
+a { 
+  text-decoration: none;
+  color: darkred;
+  font-variant: large-caps;
+  
 }
